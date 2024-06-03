@@ -1,0 +1,222 @@
+
+/*navbar*/
+.navbar ul{
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 120px;
+}
+
+.logo{
+    float: left;
+    display: block;
+    width: 214px;
+    height: 120px;
+    position: fixed;
+    padding: 0px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+.navbar ul a{
+    float: right;
+    display: block;
+    color: #ccc;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 28px;
+    height: 120px;
+    text-decoration: none;
+
+
+}
+
+.navbar ul a:hover, ul a:active {
+    background-color:	#ffcc00 ;
+    text-decoration: underline;
+    color: #333333;
+
+}
+
+.navbar li{
+    float: right;
+    line-height: 120px;
+}
+
+
+/*pozadie*/
+
+.bground{
+    background-color: grey;
+    background-image: url("../images/atelier_reklamy_tlace1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 75px;
+    background-blend-mode: multiply;
+}
+
+.container{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+/*nadpis*/
+
+.container p{
+    margin-top: 100px;
+    color: #fff;
+    font-size: 96px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+/*general*/
+
+body{
+    margin: 0;
+    font-family:'Roboto', Tahoma, Verdana ;
+    background-color: #1b1b1b;
+
+}
+
+footer{
+    margin: 0;
+    font-family:'Roboto', Tahoma, Verdana ;
+    background-color: #1b1b1b;
+
+}
+
+/*obsah*/
+
+.content_container{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-left: 5px solid #336699;
+    padding: 0;
+    height: 300px;
+    background-color: #1b1b1b;;
+    min-width: auto;
+}
+
+
+.content strong{
+    float: left;
+
+}
+
+.content p{
+    color: white;
+    min-width: auto;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 0;
+    padding-top: 15px;
+
+}
+
+
+.content_container2{
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-right: 5px solid #336699;
+    padding: 0;
+    height: 300px;
+    background-color: #1b1b1b;;
+    min-width: auto;
+}
+
+
+.content2 p strong{
+    float: right;
+
+}
+
+.content2 p{
+    color: white;
+    min-width: auto;
+    font-size: 24px;
+    text-align: right;
+    padding-left: 0;
+    padding-right: 30px;
+    padding-top: 15px;
+
+}
+
+.content_container3{
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-left: 5px solid #336699;
+    padding: 0;
+    height: 300px;
+    background-color: #1b1b1b;;
+    min-width: auto;
+}
+
+
+.content3 strong{
+    float: left;
+
+}
+
+.content3 p{
+    color: white;
+    min-width: auto;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 0;
+    padding-top: 15px;
+
+}
+
+
+/*pätka*/
+.footer_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 540px;
+    width: 100%;
+    background-color: black;
+
+}
+
+.footer_logo{
+    width: 428px;
+    height: 240px;
+
+}
+
+footer div{
+    color: #fff;
+    text-align: center;
+    
+}
